@@ -1,0 +1,75 @@
+
+[class*="col"] {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(255, 255, 255);
+}
+.padding {
+  padding-top: 5%;
+}
+.certificate{
+  text-align: center;
+}
+@media only screen and (min-device-width: 481px) {
+img {
+  padding-top: 200px;
+  width: 50%;
+}
+}
+@media only screen and (max-device-width: 481px) {
+  img {
+    width: 100%;
+  }
+  }
+/* button {
+  background-color: violet;
+} */
+.welcome {
+  font-size: 70px;
+}
+.home-content{
+  font-size: 20px;
+  padding-left: 10%;
+}
+.links{
+  position: absolute;
+  font-size: 20px;
+}
+h1{
+  padding-left: 10%;
+}
+@media only screen and (min-device-width: 481px) {
+  .sidebar{
+    padding-top: 60%;
+  }
+}
+
+.right {
+  text-align: right;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+.container-md {
+  position:relative;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  
+}
+.container-md::before {
+  content :"";
+  position: absolute;
+  inset: 0;
+  background: conic-gradient(red,green,yellow),red;
+  --_g: #0000 90deg,#000 0;
+  --_p: 50% 30% no-repeat;
+  --mask:
+    conic-gradient(from 90deg  at top    10px left  10px,var(--_g)) 0    0    / var(--_p),
+    conic-gradient(from -90deg at bottom 10px right 10px,var(--_g)) 100% 100% / var(--_p);
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+}
+
+*{
+  background-color: #1d1d20;
+}
