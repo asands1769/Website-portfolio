@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../App.css';
 import certificate from '../images/certificate.png';
 import { Link } from 'react-router-dom';

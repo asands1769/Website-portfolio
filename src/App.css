@@ -9,13 +9,21 @@
 .certificate{
   text-align: center;
 }
+.title {
+  font-size: 50px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.rally{
+  text-align: center;
+  width: 1000px;
+}
 @media only screen and (min-device-width: 481px) {
 img {
-  padding-top: 200px;
   width: 50%;
 }
 }
-@media only screen and (max-device-width: 481px) {
+@media only screen and (max-device-width: 480px) {
   img {
     width: 100%;
   }
@@ -27,6 +35,7 @@ img {
   font-size: 70px;
 }
 .home-content{
+  color:white;
   font-size: 20px;
   padding-left: 10%;
 }
@@ -37,11 +46,13 @@ img {
 h1{
   padding-left: 10%;
 }
-@media only screen and (min-device-width: 481px) {
+@media only screen and (min-width: 1000px) {
   .sidebar{
-    padding-top: 60%;
+    padding-top: 90%;
   }
 }
+
+
 
 .right {
   text-align: right;

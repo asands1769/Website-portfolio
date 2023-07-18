@@ -1,8 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+
 export function Home () {
         return (
+
             <div className='padding'>
                 <div className='container-md'>
                     <div className='row'>
@@ -25,21 +27,25 @@ export function Home () {
                         <div className='col-lg-2'>
                             <div className='sidebar'>
                                 <h2>Explore</h2>
-                                <Link className='links' to='/projects'>Projects</Link>
+                                <Link className='links'  to='/projects'>Projects</Link>
                                 <br></br>
                                 <br></br>
-                                <a className='links' href='https://github.com/asands1769'> Github</a>
+                                <Link  className='links' target="_blank" to='https://github.com/asands1769'> Github</Link>
                                 <br></br>
                                 <br></br>
-                                <a className='links' href='https://www.linkedin.com/in/adam-sands1769/'> LinkedIn</a>
+                                <Link className='links' target="_blank" to='https://www.linkedin.com/in/adam-sands1769/'> LinkedIn</Link>
                                 <br></br>
                                 <br></br>
-                                <Link className='links' to='/certificate'> LaunchCode Certification</Link>
+                                <Link className='links' to='/certificate'>Web Development Certification</Link>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <br></br>
                                 <br></br>
                                 <br></br>
                             </div>
                         </div>
-                        <p className='right'>2023 Adam Sands</p>
+                        <p className='right'>©2023 Adam Sands</p>
                     </div>
                 </div>
             </div>

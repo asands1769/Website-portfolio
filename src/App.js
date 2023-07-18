@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Home } from './components/home';
 import { Certificate } from './components/certificate';
@@ -15,8 +14,6 @@ function App() {
         <Route exact path="/projects" element={<Projects/>}></Route>
         <Route exact path="/certificate" element={<Certificate/>}></Route>
       </Routes>
-
-
     </Router>
   );
 }
