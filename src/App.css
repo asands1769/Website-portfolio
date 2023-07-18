@@ -1,4 +1,7 @@
 
+html { 
+  font-size: 62.5%;
+}
 [class*="col"] {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:rgb(255, 255, 255);
@@ -8,15 +11,44 @@
 }
 .certificate{
   text-align: center;
+  padding-top: 5%;
+}
+.back-home {
+  text-align: center; 
+}
+.back-home-link {
+  color:rgb(255, 255, 255);
+  font-weight: bolder;
+  text-decoration: none; 
+  background-color: #3811e4;
+  border-radius: 4px;
+  font-size: 3rem;
+  box-shadow: 5px 5px 6px #000;
 }
 .title {
   font-size: 50px;
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif
 }
+.title2 {
+  color:rgb(255, 255, 255);
+  font-weight: bolder;
+  text-decoration: none; 
+  text-align: center;
+  background-color: #3811e4;
+  border-radius: 4px;
+  font-size: 3rem;
+  box-shadow: 5px 5px 6px #000;
+}
+  .title2 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+  }
 .rally{
   text-align: center;
-  width: 1000px;
+  width: 100%;
 }
 @media only screen and (min-device-width: 481px) {
 img {
@@ -39,6 +71,14 @@ img {
   font-size: 20px;
   padding-left: 10%;
 }
+.home-content2{
+  color:white;
+  font-size: 20px;
+}
+  .home-content2{
+    color:white;
+    font-size: 20px;
+  }
 .links{
   position: absolute;
   font-size: 20px;
@@ -51,7 +91,10 @@ h1{
     padding-top: 90%;
   }
 }
-
+.projects {
+  text-align: center;
+  padding-top: 5%;
+}
 
 
 .right {

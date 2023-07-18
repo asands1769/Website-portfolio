@@ -6,11 +6,13 @@ import { Link } from 'react-router-dom';
 export function Certificate () {
 
 return (
-    <div className='certificate'>
-        <div>
-        <Link to='/home'>Back home!</Link>
+    <div>
+        <div className='back-home'>
+        <Link className='back-home-link' to='/home'>Take Me Back Home!</Link>
         </div>
+        <div className='certificate'>
         <img src={certificate}/>
+        </div>
     </div>
 )
 }
