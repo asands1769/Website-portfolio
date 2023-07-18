@@ -22,7 +22,7 @@ export function Projects () {
                         </h1>
                     </div>
                     <div className='col-lg-6'>
-                        <img className='rally' src={Rally}/>
+                        <img className='rally' alt="Rally Screenshot" src={Rally}/>
                     </div>
                 </div>
             
@@ -37,7 +37,7 @@ export function Projects () {
                 </h1>
                 </div>
                 <div className='col-lg-6'>
-                <img className='rally' src={MovieQuiz}/>
+                <img className='rally' alt="Movie Quiz Screenshot"  src={MovieQuiz}/>
                 </div>
             </div>
             </div>

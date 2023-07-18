@@ -11,7 +11,7 @@ return (
         <Link className='back-home-link' to='/home'>Take Me Back Home!</Link>
         </div>
         <div className='certificate'>
-        <img src={certificate}/>
+        <img alt="Certificate Copy"  src={certificate}/>
         </div>
     </div>
 )
