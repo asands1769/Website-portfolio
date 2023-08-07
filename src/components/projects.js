@@ -17,7 +17,7 @@ export function Projects () {
                     </div>
                     <div className='col-lg-4'>
                         <h1  className='home-content2'>
-                        Rally showcases my proficiency in building applications using Spring Boot,
+                        &emsp;Rally showcases my proficiency in building applications using Spring Boot,
                         Java, Typescript, SQL,  AWS, Angular, HTML5 and BootStrap.  This project highlights my ability to use Restful APIs.  
                         </h1>
                     </div>
@@ -33,7 +33,7 @@ export function Projects () {
                 </div>
                 <div className='col-lg-4'>
                 <h1 className='home-content2'>
-                My Movie Quiz project showcases my proficiency in building applications using various technologies including Javascript, Typescript, Angular, HTML5, and Bootstrap. The project highlights my ability to integrate APIs seamlessly and display data effectively.
+                &emsp;My Movie Quiz project showcases my proficiency in building applications using various technologies including Javascript, Typescript, Angular, HTML5, and Bootstrap. The project highlights my ability to integrate APIs seamlessly and display data effectively.
                 </h1>
                 </div>
                 <div className='col-lg-6'>
