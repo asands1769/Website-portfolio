@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.242f1362.css",
-    "main.js": "/static/js/main.a06efa65.js",
+    "main.js": "/static/js/main.4090ad55.js",
     "static/js/787.723214ac.chunk.js": "/static/js/787.723214ac.chunk.js",
     "static/media/Rally.png": "/static/media/Rally.4e902cc2fc428de5cdf2.png",
     "static/media/certificate.png": "/static/media/certificate.7619555a0ab50c6aa570.png",
     "static/media/MovieQuiz.png": "/static/media/MovieQuiz.b9d3e6d2f51e7b252ab2.png",
     "index.html": "/index.html",
     "main.242f1362.css.map": "/static/css/main.242f1362.css.map",
-    "main.a06efa65.js.map": "/static/js/main.a06efa65.js.map",
+    "main.4090ad55.js.map": "/static/js/main.4090ad55.js.map",
     "787.723214ac.chunk.js.map": "/static/js/787.723214ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.242f1362.css",
-    "static/js/main.a06efa65.js"
+    "static/js/main.4090ad55.js"
   ]
 }
