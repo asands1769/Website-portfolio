@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom
 function App() {
 
   return (
-    <Router basename='/Website-portfolio'>
+    <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/home" />}/>
         <Route exact path="/home" element={<Home/>}></Route>
