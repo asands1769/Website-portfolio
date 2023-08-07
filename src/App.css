@@ -2,6 +2,7 @@
 html { 
   font-size: 62.5%;
 }
+
 [class*="col"] {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:rgb(255, 255, 255);
@@ -24,13 +25,14 @@ html {
   border-radius: 4px;
   font-size: 3rem;
   box-shadow: 5px 5px 6px #000;
+  transition: background-color 0.9s, color 0.9s;
 }
-.title {
-  font-size: 50px;
-  text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif
+.back-home-link:hover {
+  background-color: rgb(128, 180, 247);
+  color: greenyellow;
 }
-.title2 {
+
+.project-links {
   color:rgb(255, 255, 255);
   font-weight: bolder;
   text-decoration: none; 
@@ -39,13 +41,16 @@ html {
   border-radius: 4px;
   font-size: 3rem;
   box-shadow: 5px 5px 6px #000;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.9s, color 0.9s;
 }
-  .title2 {
-    display: flex;
-    font-size: 50px;
-    justify-content: center;
-    align-items: center;
-  }
+.project-links:hover {
+  background-color: rgb(128, 180, 247);
+  color: greenyellow;
+}
 .rally{
   text-align: center;
   width: 100%;
@@ -59,30 +64,78 @@ img {
   img {
     width: 100%;
   }
+  .welcome {
+text-align: center;  }
+    .explore {
+      text-align: center;
+    }
   }
 /* button {
   background-color: violet;
 } */
-.welcome {
-  font-size: 70px;
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
+@keyframes slideInRight {
+  from {
+    transform: translateX(300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+.welcome {
+  animation: slideInLeft 0.5s ease-in;
+  transition: color 0.9s;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
 .home-content{
+  animation: slideInLeft 0.5s ease-in;
   color:white;
-  font-size: 20px;
+  font-size: 2rem;
   padding-left: 10%;
 }
 .home-content2{
   color:white;
-  font-size: 20px;
+  font-size: 2rem;
+
 }
-  .home-content2{
-    color:white;
-    font-size: 20px;
-  }
 .links{
+  animation: slideInRight 0.5s ease-in;
   position: absolute;
-  font-size: 20px;
+  font-size: 2rem;
+  font-weight:bolder;
+  color: rgb(144, 144, 247);
+  text-decoration: none;
+  transition: background-color 0.9s, color 0.9s;
 }
+.explore{
+  animation: slideInRight 0.5s ease-in;
+  font-size:3rem;
+  font-weight: 400;
+}
+.links:hover{
+  background-color: var(--clr-accent);
+  color: greenyellow;
+}
+.row{
+  position: relative;
+}
+.row:hover.welcome{
+  color: orange;
+}
+/* .links:hover.welcome{
+  color: greenyellow;
+} */
 h1{
   padding-left: 10%;
 }
@@ -116,7 +169,7 @@ h1{
   inset: 0;
   background: conic-gradient(red,green,yellow),red;
   --_g: #0000 90deg,#000 0;
-  --_p: 50% 30% no-repeat;
+  --_p: 50% 14% no-repeat;
   --mask:
     conic-gradient(from 90deg  at top    10px left  10px,var(--_g)) 0    0    / var(--_p),
     conic-gradient(from -90deg at bottom 10px right 10px,var(--_g)) 100% 100% / var(--_p);
@@ -127,3 +180,4 @@ h1{
 *{
   background-color: #1d1d20;
 }
+

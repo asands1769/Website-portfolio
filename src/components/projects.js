@@ -11,9 +11,9 @@ export function Projects () {
             </div>
             <br></br>
             <div className='container'>
-                <div className='row border'>
+                <div className='row'>
                     <div className='col-lg-2'>
-                            <Link className='title2' target="_blank" to='https://home-5013300400.app-ionos.space/'>Rally!</Link>
+                            <Link className='project-links' target="_blank" to='https://home-5013300400.app-ionos.space/'>Rally!</Link>
                     </div>
                     <div className='col-lg-4'>
                         <h1  className='home-content2'>
@@ -27,9 +27,9 @@ export function Projects () {
                 </div>
             
                 <br></br>
-            <div className='row border'>
+            <div className='row'>
                 <div className='col-lg-2'>
-                    <Link className='title2' target="_blank" to='https://home-5012146743.app-ionos.space/'>Movie Quiz!</Link>
+                    <Link className='project-links' target="_blank" to='https://home-5012146743.app-ionos.space/'>Movie Quiz!</Link>
                 </div>
                 <div className='col-lg-4'>
                 <h1 className='home-content2'>

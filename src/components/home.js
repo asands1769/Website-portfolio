@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 export function Home () {
         return (
-
             <div className='padding'>
                 <div className='container-md'>
                     <div className='row'>
@@ -13,20 +12,21 @@ export function Home () {
                     <div className='row'>
                         <div className='col-lg-7'>
                             <h1 className='welcome'>Welcome</h1>
-                            <br></br>
+                            <br></br><hr></hr><br></br>
                             <p className='home-content'>&emsp; My name is Adam Sands, and this is my website portfolio.  I am located out of Jacksonville Florida
                             and have developed many projects that feature my abilities as a Full-Stack Web Developer. 
                             I have an always-learning mindset and believe that in this industry, if you stop learning you quickly fall behind.
                             </p>
                             <p className='home-content'>
-                            I am passionate about complex problem solving and creating UI that will be simple and seamless for the user to use.  
+                            &emsp;I am passionate about complex problem solving and creating UI that will be simple and seamless for the user to use.  
                             </p>
 
                         </div>
                         <div className='col-lg-2'></div>
                         <div className='col-lg-2'>
                             <div className='sidebar'>
-                                <h2>Explore</h2>
+                                <h2 className='explore'>Explore</h2>
+                                <hr></hr>
                                 <Link className='links'  to='/projects'>Projects</Link>
                                 <br></br>
                                 <br></br>
@@ -45,8 +45,8 @@ export function Home () {
                                 <br></br>
                             </div>
                         </div>
-                        <p className='right'>©2023 Adam Sands</p>
                     </div>
+                    <p className='right'>©2023 Adam Sands</p>
                 </div>
             </div>
         )
