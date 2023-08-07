@@ -13,6 +13,7 @@ function App() {
         <Route exact path="/home" element={<Home/>}></Route>
         <Route exact path="/projects" element={<Projects/>}></Route>
         <Route exact path="/certificate" element={<Certificate/>}></Route>
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   );
