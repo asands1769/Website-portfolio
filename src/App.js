@@ -9,8 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/home" />}/>
-        <Route exact path="/home" element={<Home/>}></Route>
+        <Route exact path="/" element={<Home/>}></Route>
         <Route exact path="/projects" element={<Projects/>}></Route>
         <Route exact path="/certificate" element={<Certificate/>}></Route>
         <Route path="*" element={<Navigate to="/" />} />
