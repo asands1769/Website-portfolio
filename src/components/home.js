@@ -11,6 +11,7 @@ export function Home () {
                     </div>
                     <div className='row'>
                         <div className='col-lg-7'>
+                            <span>
                             <h1 className='welcome'>Welcome</h1>
                             <br></br><hr></hr><br></br>
                             <p className='home-content'>&emsp; My name is Adam Sands, and this is my website portfolio.  I am located out of Jacksonville Florida
@@ -20,7 +21,7 @@ export function Home () {
                             <p className='home-content'>
                             &emsp;I am passionate about complex problem solving and creating UI that will be simple and seamless for the user to use.  
                             </p>
-
+                            </span>
                         </div>
                         <div className='col-lg-2'></div>
                         <div className='col-lg-2'>

@@ -105,13 +105,21 @@ text-align: center;  }
   animation: animate 2s linear forwards;
   font-size: 5rem;
   font-weight: bold;
+  transition: color 0.9s;
 }
+span:hover {
+  color: greenyellow;
+}
+.explore:hover {
+  color: greenyellow;
+}
+
 
 .home-content{
   animation: slideInLeft 0.5s ease-in;
-  color:white;
   font-size: 2rem;
   padding-left: 10%;
+  transition: color 0.9s;
 }
 .home-content2{
   color:white;
@@ -131,6 +139,8 @@ text-align: center;  }
   animation: slideInRight 0.5s ease-in;
   font-size:3rem;
   font-weight: 400;
+  transition: color 0.9s;
+
 }
 .links:hover{
   background-color: var(--clr-accent);
@@ -139,12 +149,8 @@ text-align: center;  }
 .row{
   position: relative;
 }
-.row:hover.welcome{
-  color: orange;
-}
-/* .links:hover.welcome{
-  color: greenyellow;
-} */
+
+
 h1{
   padding-left: 10%;
 }
@@ -170,8 +176,9 @@ h1{
   position:relative;
   padding-top: 5%;
   padding-bottom: 10%;
-  
+  transition: border 0.9s, color 0.9s;
 }
+
 .container-md::before {
   content :"";
   position: absolute;
@@ -185,6 +192,7 @@ h1{
     -webkit-mask: var(--mask);
             mask: var(--mask);
 }
+
 
 *{
   background-color: #1d1d20;
